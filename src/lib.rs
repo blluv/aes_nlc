@@ -1,4 +1,5 @@
-pub mod aes;
+mod aes;
+pub use aes::*;
 
 #[cfg(test)]
 mod tests {
